@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container for all profile cards */
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Task 5 – profile-card class */
+.profile-card {
+  width: 300px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+}
+
+/* Task 5 – profile-image class */
+.profile-image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 10px;
+}
+
+/* Task 5 – profile-name class */
+.profile-name {
+  text-align: center;
+  color: #333;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+/* Task 5 – skills-list class */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.skills-list li {
+  background-color: #e0e0e0;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Task 5 – contact-button class */
+.contact-button {
+  display: block;
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.contact-button:hover {
+  background-color: #2980b9;
+}
